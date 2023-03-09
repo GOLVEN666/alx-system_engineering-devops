@@ -1,2 +1,2 @@
 #!/bin/bash
-( shopt -s nullglob dotglob; for f in *; do [[ -d "$f" ]] && echo -n "$f/," || echo -n "$f,"; done ) | sort -df --key=1.2 | tr -d '\n'; echo
+ls -1Ap
