@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
-# display "Best School" and print "Hi" at 9th counter
+# If condition
 
-counter=0
-while [ $counter -lt 10 ]
+index=0
+
+while [ $index -lt 10 ]
 do
-	if [ $counter -eq 9 ]
-	then
-		echo "Hi"
-	fi
-	echo "Best School"
-	((counter++))
+  if [ $index -eq 9 ]
+  then
+    echo "Hi"
+  fi
+  echo "Best School"
+  (( index++ ))
 done

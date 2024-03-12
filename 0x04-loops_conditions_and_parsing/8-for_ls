@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
-# Printing the contents of the current directory in list format.
-#   Only printing the part of the name after the first dash. 
+# lsit the name of file and dirctories in the current dir
 
-list_cont=$(ls)
-for content in $list_cont; 
+for item in *;
 do
-  echo "$content" | cut -d '-' -f2
+    echo "$item" | cut -d'-' -f2
 done

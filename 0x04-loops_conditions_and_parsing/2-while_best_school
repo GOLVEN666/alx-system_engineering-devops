@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Using while loop for printing "Best School" Ten times.
+# displey Best School using while loop
 
-j=0
+index=0
 
-while [ $j -lt 10 ];
+while [ $index -lt 10 ]
 do
-  echo "Best School";
-  (( j++ ))
+  echo "Best School"
+  ((index++))
 done

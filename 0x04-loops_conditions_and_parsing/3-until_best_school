@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
-# Using until loop for printing Ten Times.
+# Loop using untill
 
-j=0
-
-until [ $j -eq 10 ]
+index=0
+until [ $index == 10 ]
 do
-  echo "Best School"
-  (( j++ ))
+echo "Best School"
+    ((index++))
 done
