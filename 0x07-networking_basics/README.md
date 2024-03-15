@@ -43,8 +43,6 @@ The final task involves writing a Bash script that pings an IP address passed as
     cd alx-system_engineering-devops/0x07-networking_basics
     ```
 
-Replace `script_name.sh` with the name of the script file for the specific task.
-
 ## Author
 Written by [GOLVEN666]
 
